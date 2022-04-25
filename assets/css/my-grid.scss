@@ -1,0 +1,134 @@
+.my-grid {
+  width: 100%;
+  display: block;
+  padding: 0;
+
+  .my-wide {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+  // margin-left: -4px;
+  // margin-right: -4px;
+}
+
+.my-row.my-no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.my-c-0 {
+  display: none;
+}
+
+$lenght: 12;
+
+@for $i from 1 through $lenght {
+  .my-c-#{$i} {
+    flex: 0 0 percentage($i / 12);
+    max-width: percentage($i / 12);
+  }
+}
+
+@for $i from 1 through $lenght {
+  .my-c-o-#{$i} {
+    margin-left: percentage($i / 12);
+  }
+}
+
+@media (min-width: 740px) {
+  // .my-row {
+  //   margin-left: -8px;
+  //   margin-right: -8px;
+  // }
+
+  .my-m-0 {
+    display: none;
+  }
+
+  @for $i from 1 through $lenght {
+    .my-m-#{$i} {
+      display: block;
+    }
+  }
+
+  @for $i from 1 through $lenght {
+    .my-m-#{$i} {
+      flex: 0 0 percentage($i / 12);
+      max-width: percentage($i / 12);
+    }
+  }
+
+  @for $i from 1 through $lenght {
+    .my-m-o-#{$i} {
+      margin-left: percentage($i / 12);
+    }
+  }
+}
+
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+  .l-0 {
+    display: none;
+  }
+
+  @for $i from 1 through $lenght {
+    .my-l-#{$i} {
+      display: block;
+    }
+  }
+
+  @for $i from 1 through $lenght {
+    .my-l-#{$i} {
+      flex: 0 0 percentage($i / 12);
+      max-width: percentage($i / 12);
+    }
+  }
+
+  @for $i from 1 through $lenght {
+    .my-l-o-#{$i} {
+      margin-left: percentage($i / 12);
+    }
+  }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .my-wide {
+    width: 644px;
+  }
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .my-wide {
+    width: 984px;
+
+    .wide .l-0 {
+      display: none;
+    }
+
+    @for $i from 1 through $lenght {
+      .my-l-#{$i} {
+        display: block;
+      }
+    }
+
+    @for $i from 1 through $lenght {
+      .my-l-#{$i} {
+        flex: 0 0 percentage($i / 12);
+        max-width: percentage($i / 12);
+      }
+    }
+
+    @for $i from 1 through $lenght {
+      .my-l-o-#{$i} {
+        margin-left: percentage($i / 12);
+      }
+    }
+  }
+}

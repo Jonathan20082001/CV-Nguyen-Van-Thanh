@@ -1,0 +1,371 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Consolas, monospace;
+  background-color: #d4ecf2;
+}
+
+.my-container {
+  background-color: #cce9f09d;
+  padding: 0px;
+  margin: 0px;
+}
+.my-container .my-row {
+  height: auto;
+}
+.my-container .my-header {
+  position: relative;
+}
+.my-container .my-header img {
+  width: 100%;
+}
+.my-container .my-header .my-greeting {
+  position: absolute;
+  top: 0%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 100px 25px 10px 25px;
+}
+.my-container .my-header .my-greeting p {
+  margin: 35px 0px 5px 0px;
+  font: 300 50px "Pacifico", Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), 7px 7px 0px rgba(0, 0, 0, 0.05);
+}
+.my-container .my-header .rectangle-down {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 0;
+  height: 0;
+  border-left: 61px solid transparent;
+  border-right: 61px solid transparent;
+  border-top: 30px solid white;
+  margin-top: 118px;
+}
+.my-container .my-header .my-overview {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.my-container .my-header .my-overview .name-van-thanh {
+  justify-content: center;
+}
+.my-container .my-header .my-overview .name-van-thanh .p-name-van-thanh {
+  font-size: 80px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.my-container .my-header .my-overview .my-name-is {
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+.my-container .my-header .my-overview .job-position {
+  height: auto;
+  width: 80%;
+  margin: 10px auto;
+  background-color: white;
+}
+.my-container .my-header .my-overview .job-position .name-of-job {
+  font-size: 35px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+.my-container .my-header .my-img-infor {
+  opacity: 0.8;
+}
+.my-container .my-header .my-img-me-infor {
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  transform: translate(-19%, 40%);
+  background-color: white;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  border-radius: 50%;
+  border: 5px solid #9bc1ca;
+}
+.my-container .my-header .my-img-me-infor img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.my-container .my-left-infor {
+  background-color: #9bc1ca;
+  height: auto;
+}
+.my-container .my-left-infor .first-row-left {
+  padding: 50px;
+}
+.my-container .my-left-infor .my-personal-detais {
+  padding-top: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+.my-container .my-right-infor {
+  height: auto;
+  width: 100%;
+}
+.my-container .my-right-infor .first-row-in-right {
+  padding: 50px;
+}
+.my-container .my-right-infor .my-personal-skill {
+  margin-top: 55px;
+}
+.my-container .my-right-infor .my-personal-skill .item-skills {
+  margin: 10px auto;
+}
+.my-container .my-right-infor .my-personal-skill .item-skills .my-col-boundary-star {
+  transform: rotate(45deg);
+  text-align: center;
+  font-size: 20px;
+  margin: auto 10px;
+}
+.my-container .my-right-infor .my-software-skill {
+  margin-top: 55px;
+}
+.my-container .my-right-infor .my-software-skill .item-skills {
+  margin: 10px auto;
+}
+.my-container .my-right-infor .my-software-skill .item-skills .my-col-boundary-level {
+  transform: rotate(45deg);
+  text-align: center;
+  font-size: 20px;
+  margin: auto 10px;
+}
+.my-container .my-right-infor .my-edutcation {
+  margin-top: 55px;
+}
+.my-container .my-right-infor .my-edutcation .item-skills {
+  margin: 10px auto;
+}
+.my-container .my-right-infor .my-edutcation .item-skills .my-col-boundary-star {
+  transform: rotate(45deg);
+  text-align: center;
+  font-size: 20px;
+  margin: auto 10px;
+}
+.my-container .my-right-infor .my-hobbie-and-interests {
+  margin-top: 55px;
+}
+.my-container .my-right-infor .my-hobbie-and-interests .my-icon-hobbie {
+  font-size: 50px;
+}
+.my-container .title-p {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 2px 0px;
+  color: #232c35;
+}
+.my-container .icon-p-social {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 2px 0px;
+  color: #232c35;
+}
+.my-container .item {
+  text-align: left;
+}
+.my-container .item-p {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 2px 0px;
+  color: #232c35;
+}
+.my-container .values {
+  text-align: right;
+}
+.my-container .values-p {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 2px 0px;
+  color: #516374;
+  padding-right: 9px;
+}
+.my-container .line {
+  height: 2px;
+  width: 100%;
+  margin: 10px auto;
+  background-color: #222222;
+}
+.my-container .rectangle {
+  height: 4px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+}
+.my-container .text-align-center {
+  text-align: center;
+}
+.my-container .pd-0px {
+  padding: 0px !important;
+}
+.my-container .mg-0px {
+  margin: 0px !important;
+}
+.my-container .mg-top-15px {
+  margin-top: 15px;
+}
+.my-container .hexagon {
+  height: 200px;
+  width: 120px;
+  background: red;
+  position: relative;
+  box-sizing: border-box;
+}
+.my-container .hexagon::before,
+.my-container .hexagon::after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 0;
+  /* half height */
+  border-top: 21px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.my-container .hexagon::before {
+  left: -49px;
+  border-right: 50px solid white;
+}
+.my-container .hexagon::after {
+  right: -49px;
+  border-left: 50px solid white;
+}
+.my-container .boundary {
+  margin: 45px 0px 45px 0px;
+}
+.my-container .boundary .my-col-i-boundary {
+  transform: rotate(45deg);
+  text-align: center;
+  font-size: 20px;
+}
+.my-container .boundary .small-line {
+  background-color: #232c35;
+  height: 2px;
+  margin: auto 0px;
+}
+.my-container .ml-9px {
+  margin-left: 9px;
+}
+.my-container .mg-top-20px {
+  margin-top: 20px;
+}
+.my-container .style-a-social {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 2px 0px;
+  color: #232c35;
+  padding-left: 9px;
+  text-decoration: none;
+  line-height: 38px;
+}
+
+@media (min-width: 1513px) {
+  .my-container .my-header .my-overview .job-position .name-of-job {
+    font-size: 30px;
+  }
+  .my-container .hexagon::before,
+.my-container .hexagon::after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 0;
+    /* half height */
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+  }
+}
+@media (min-width: 1428px) {
+  #my-card-img {
+    display: none !important;
+  }
+}
+@media (max-width: 1428px) {
+  .my-container .my-header {
+    display: none;
+  }
+  .my-container .my-left-infor .my-personal-detais {
+    padding-top: 20px;
+  }
+  .my-container .my-left-infor .first-row-left {
+    padding: 20px;
+  }
+  .my-container .my-right-infor .first-row-in-right {
+    padding: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .my-container .my-header .my-overview {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .my-container .my-header .my-overview .name-van-thanh {
+    justify-content: center;
+  }
+  .my-container .my-header .my-overview .name-van-thanh .p-name-van-thanh {
+    font-size: 69px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .my-container .my-header .my-overview .my-name-is {
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+  }
+  .my-container .my-header .my-greeting-2 {
+    position: absolute;
+    top: 0;
+    left: 11%;
+    width: auto;
+    height: auto;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 19px solid white;
+    margin-top: 153px;
+    margin-left: -9px;
+  }
+  .my-container .my-header .my-overview .job-position .name-of-job {
+    font-size: 27px;
+  }
+  .my-container .hexagon::before,
+.my-container .hexagon::after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 0;
+    /* half height */
+    border-top: 15px solid transparent;
+    border-bottom: 16px solid transparent;
+  }
+}
